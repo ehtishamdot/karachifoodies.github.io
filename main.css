@@ -6,6 +6,9 @@
    
     font-family: 'Ubuntu', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 /* main heading classes */
 .h-primary{
     font-size: 4.9rem;
