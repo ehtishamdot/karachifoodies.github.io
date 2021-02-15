@@ -1,0 +1,283 @@
+/* for logo  */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Fjalla+One&family=Inter&family=Ranchers&family=Ubuntu&family=Varela+Round&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+   
+    font-family: 'Ubuntu', sans-serif;
+}
+/* main heading classes */
+.h-primary{
+    font-size: 4.9rem;
+    padding: 12px;
+}
+.p-primary{
+    font-size: 1.5rem;
+    padding: 20px;
+}
+.h-secondary{
+    font-size: 2.5rem;
+    padding: 20px;
+}
+.h-primary1{
+    font-size: 3.5rem;
+    padding: 20px;
+}
+.center{
+    text-align: center;
+}
+/* css variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* navigation bar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-around;
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+}
+ /* navigation liststyle */
+ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color:#111183;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    
+}
+#navbar li{
+
+  list-style: none;
+  font-size: 1.5rem; 
+}
+#navbar ul li a{
+    display: block;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: White;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+}
+#navbar ul li a:hover{
+    
+    background-color:#8792c5;
+}
+ /*  my logo in nav */
+#logo a{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 1000;
+    font-size: 3rem;
+    color: cornsilk;
+    cursor: pointer;
+    text-decoration: none;
+}
+#logo:hover a{
+    color: rgb(212, 208, 190);
+}
+/* marquee */
+marquee{
+    background-color: rgb(4, 83, 37);
+    height: 2rem;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(247, 247, 247);
+    cursor: pointer;
+    width: 47.1%;
+   position: fixed;
+   margin-top: 57px;
+   width: 100%;
+   opacity: 0.9;
+}
+
+/* home section */
+#home{
+    display: flex;
+    padding: 4px 200px ;
+    color: rgb(248, 241, 241);
+    height: 64.4rem;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+}
+.container h1{
+    text-align:center;  
+    font-family: 'Ranchers', cursive;
+}
+.container p{
+    text-align:center;
+}
+#home .container{
+    display: flex;
+    padding: 35px;
+    background-color: rgb(248, 69, 37);
+    max-width: 500px;
+    flex-direction: column;
+    border-radius: 50px;
+    justify-content: right;
+    align-self:flex-end;    
+}
+#home .container .btn{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    background-color:rgb(81, 71, 167);
+    font-size: 19.8px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    align-self: center;
+    border: rgb(219, 192, 192) solid 2px;
+}
+#home .container .btn:hover{
+    
+    background-color:#5c6db9;
+}
+#home::before{
+    content: "";
+    background: url('https://recipepress.inspirythemes.com/third/wp-content/uploads/sites/4/2017/01/slider2-2000-750.jpg') no-repeat center center/cover ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+ /* our services */
+ #services{
+     margin: 34px;
+     display: flex;
+ }
+ .services-container div .btn{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    background-color:rgb(74, 67, 133);
+    font-size: 19.8px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    align-self: center;
+    border: rgb(219, 192, 192) solid 2px;
+    
+ }
+ .services-container div .btn:hover{
+    
+    background-color:#5c6db9;
+}
+ 
+ #services .box{
+     
+     padding: 34px;
+     margin: 3px 6px;
+     background-color: rgb(248, 240, 240);
+     border-radius: 50px;
+     display: flex;
+     flex-direction: column;
+ }
+ #services .box img{
+     height: 160px;
+     margin: auto;
+     display: block;   
+ }
+ /* our clients */
+ #clients{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 372px;
+     background-color: rgb(245, 243, 243);
+ }
+
+ #clients  img{
+     height: 200px;
+     margin: 5px 60px;
+ }
+ /* this is contact page */
+ #contact-box{
+    background-color:#24252A;
+    color: white;
+    height: 20rem;
+    display: flex;
+    justify-content:space-evenly;
+ }
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    padding-top : 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.form input{
+    height: 2rem;
+    width: 20rem;
+}
+.form a{
+    text-decoration: none;
+    color: rgb(160, 156, 173);
+}
+#sign-policy{
+    padding: 10px 25px;
+}
+.form a:hover{
+    text-decoration: underline;
+    color: white;
+  }
+.form1 p{
+    padding:10px 24px;
+    font-size: 1.1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+.form1 a{
+    text-decoration: none;
+    color: rgb(231, 45, 206);
+    font-size: 1.3rem;
+    padding: 10px 25px;
+}
+.form1 a:hover{
+  text-decoration: underline;
+  color: white;
+}
+.form1 .btn{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    background-color:rgb(74, 67, 133);
+    font-size: 19.8px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    align-self: center;
+    border: rgb(219, 192, 192) solid 2px;
+}
+.form1 .btn:hover{
+    
+    background-color:#5c6db9;
+}
+ 
+
+/* use for input */
+.form input::placeholder{
+        font-weight: 500;
+        font-size: 20px;
+        font-family: 'Varela Round', sans-serif;
+}

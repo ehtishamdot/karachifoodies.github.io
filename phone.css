@@ -1,0 +1,146 @@
+@media (max-width: 1511px)
+{
+    #navbar{
+    flex-direction: column;
+    
+    }
+    #navbar ul li a{
+        font-size: 1rem;
+        padding: 0px 7px;
+    }
+    marquee{
+        margin-top: 4.7rem;
+      
+    }
+    #home{
+      height: 840px; 
+      justify-content: center;
+       
+    }
+    #home::before{
+        height: 799px;
+        overflow: hidden;
+      
+      }
+    #home .container{
+          height: 18rem;
+          width: 15rem;
+          align-self:center 
+    
+    
+      }
+    .container h1{
+        font-size: 2rem;
+    }
+    .h-primary{
+        font-size: 2.9rem;
+        padding: 20px;
+    }
+    .p-primary{
+        font-size: 1rem;
+        padding: 20px;
+    }
+    .h-secondary{
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+    .h-primary1{
+        font-size: 2.5rem;
+        padding: 20px;
+    }
+    
+    #services{
+            flex-direction: column;
+         overflow: auto;
+         
+    }
+    #servcies .box{
+        width: 15rem;
+    }
+    #services .box img{
+        height: 120px;
+    }
+    #clients
+    {
+       overflow:scroll;
+    }
+    #contact-box{
+      flex-direction: column;
+       height: 35rem;
+     /* width: 23rem; */
+    }
+
+}
+
+@media (max-width: 401px) 
+{
+    #navbar{
+        flex-direction: column;
+        
+        }
+        #navbar ul li a{
+            font-size: 1rem;
+            padding: 0px 7px;
+        }
+        marquee{
+            margin-top: 4.7rem;
+          
+        }
+        #home{
+          height: 840px; 
+          justify-content: center;
+           
+        }
+        #home::before{
+            height: 799px;
+            overflow: hidden;
+          
+          }
+        #home .container{
+              height: 18rem;
+              width: 15rem;
+              align-self:center 
+        
+        
+          }
+        .container h1{
+            font-size: 2rem;
+        }
+        .h-primary{
+            font-size: 2.9rem;
+            padding: 20px;
+        }
+        .p-primary{
+            font-size: 1rem;
+            padding: 20px;
+        }
+        .h-secondary{
+            font-size: 1.5rem;
+            padding: 20px;
+        }
+        .h-primary1{
+            font-size: 2.5rem;
+            padding: 20px;
+        }
+        
+        #services{
+                flex-direction: column;
+             overflow: auto;
+             
+        }
+        #servcies .box{
+            width: 15rem;
+        }
+        #services .box img{
+            height: 120px;
+        }
+        #clients
+        {
+           overflow:scroll;
+        }
+        #contact-box{
+          flex-direction: column;
+           height: 35rem;
+         /* width: 23rem; */
+        }
+}
